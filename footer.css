@@ -1,0 +1,145 @@
+.content-footer{
+    height: 350px;
+    background-color: #171717;
+    padding: 0 100px;
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    flex-direction: row;
+    column-gap: 3em;
+    justify-content: space-around;
+}
+
+.subfooter {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F7F7F7;
+}
+
+.content-footer div {
+    width: 100%;
+    max-width: 400px;
+}
+
+.content-footer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-footer-links {
+    display: flex;
+}
+
+.footer-cursos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-footer-links ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    align-items: center;
+    list-style: none;
+}
+
+.content-footer-links ul p {
+    color: #F7F7F7;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.content-footer-links ul li {
+    padding: 5px 0;
+}
+
+.content-footer-links ul li a {
+    text-decoration: none;
+    color: #F7F7F7;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+
+.footer-social {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 30px 0;
+}
+
+.footer-social svg{
+    height: 25px;
+}
+
+
+.suscribe-input{
+    display: flex;
+    flex-direction: row;
+}
+
+.content-footer-suscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-suscribe p {
+    font-size: 18px;
+    padding-bottom: 15px;
+    font-weight: 700;
+    color: #F7F7F7;
+}
+
+.footer-suscribe input {
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    width: 100%;
+}
+
+.footer-suscribe button {
+    height: 40px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    padding: 5px 30px;
+    cursor: pointer;
+    background: #ff9c00;
+    color: #F7F7F7;
+}
+
+.footer-social svg {
+    fill: #F7F7F7;
+}
+
+.content-footer-text a {
+    display: flex;
+    align-items: center;
+}
+
+.content-footer-text p {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    color: #F7F7F7;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+/* .footer-logo-letras {
+    height: 35px;
+} */
+
+.subfooter a {
+    text-decoration: none;
+    color: #010101;
+}
